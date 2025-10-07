@@ -20,7 +20,6 @@ public class Main {
                 lineNumber++;
             }
             myReader.close();
-            myScanner.close();
         } catch (Exception exception) {
             System.out.println("File not found!");
             System.out.println(exception.getMessage());
